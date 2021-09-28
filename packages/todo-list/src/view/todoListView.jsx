@@ -1,4 +1,4 @@
-import TodoList from "./list"
+import TodoList from "../components/list"
 import { useState, useRef, useEffect } from "react";
 import './style.css';
 

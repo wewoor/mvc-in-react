@@ -1,4 +1,0 @@
-const note = {
-    id: '',
-    name: ''
-}
