@@ -1,0 +1,25 @@
+html, body {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: cadetblue;
+}
+
+.App-header {
+  font-size: 24px;
+  text-align: left;
+  line-height: 35px;
+  text-indent: 10px;
+  border-bottom: 1px solid #fff;
+}

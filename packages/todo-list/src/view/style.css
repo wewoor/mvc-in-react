@@ -1,0 +1,56 @@
+.todoListView {
+    margin: auto;
+    padding: 0 10px 10px;
+}
+
+.todoList {
+    overflow: auto;
+    height: 400px;
+}
+
+.todoListInput {
+    margin: 10px 0;
+}
+
+.todoListInput>button {
+    margin-left: 10px;
+}
+
+.todoListItem {
+    height: 35px;
+    display: flex;
+    margin: 10px 0px;
+    background: floralwhite;
+    color: firebrick;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoListItem:hover {
+    opacity: 0.8;
+}
+
+.todoListItem button {
+    border: 0;
+    margin: 5px;
+    height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.todoListItem .index {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    min-width: 35px;
+    background-color: bisque;
+}
+
+.todoListItem .name {
+    flex-grow: 1;
+    word-break: break-all;
+}
+
+.todoListItem .finished {
+    opacity: 0.5;
+}

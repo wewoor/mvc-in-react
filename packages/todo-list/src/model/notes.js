@@ -1,0 +1,4 @@
+const note = {
+    id: '',
+    name: ''
+}
