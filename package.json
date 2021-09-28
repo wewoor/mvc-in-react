@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "mvc-in-react",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
