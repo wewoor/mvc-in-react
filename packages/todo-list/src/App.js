@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TodoListView from './view/todoListView';
+import TodoListController from './controller/todoListController';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         TodoList Example:
       </header>
-      <TodoListView />
+      <TodoListController />
     </div>
   );
 }

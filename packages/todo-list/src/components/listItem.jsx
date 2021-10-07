@@ -16,7 +16,7 @@ export default function TodoItem(props) {
         <div className={`todoListItem${ finished ? ' finished': '' }`}>
             <span className="index">{index}</span>
             <span className="name">
-                { finished ? <del>name</del> : name }
+                { finished ? <del>{name}</del> : name }
             </span>
             <button className="finished" onClick={handleFinished}>Finished</button>
             <button className="remove"  onClick={handleRemove}>Remove</button>
