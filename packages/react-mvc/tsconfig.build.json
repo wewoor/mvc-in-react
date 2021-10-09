@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "lib": ["es5", "es6", "es7", "es2017", "dom", "ESNext"],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "outDir": "./esm",
+        "strict": true /* Enable all strict type-checking options. */,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "typeRoots": ["node", "node_modules/@types"]
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["./src/**/__tests__/*"]
+}
